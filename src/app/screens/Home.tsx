@@ -15,7 +15,6 @@ function Home() {
             <h1>ingeniería de software, y actualmente tengo 19 años.</h1>
           </div>
         </div>
-        {/* Aquí agregamos la imagen */}
         <div className="rounded-full">
           <img className="Zarella" />
         </div>

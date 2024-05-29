@@ -22,7 +22,6 @@ function App() {
             <Route path='/Mis_trabajos' element={<Projects />} />
           </Routes>
         </section>
-        {/*<Footer/>*/}
       </section>
     </main>
   );

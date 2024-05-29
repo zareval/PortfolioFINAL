@@ -56,10 +56,7 @@ const Projects: React.FC = () => {
               </button>
             </div>
           </SwiperSlide>
-          {/* Agrega más SwiperSlide según sea necesario */}
         </Swiper>
-
-        {/* Estilos para las flechas de navegación */}
         <style jsx>{`
           .swiper-button-prev,
           .swiper-button-next {

@@ -25,7 +25,6 @@ const Navbar = () => {
           >
             {item.icon}
             <span className={`ml-15 text-center font-medium`}>
-              {/* Puedes agregar un texto aquí si deseas */}
             </span>
           </NavLink>
         ))}
