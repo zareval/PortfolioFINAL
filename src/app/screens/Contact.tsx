@@ -20,16 +20,16 @@ const Contact = () => {
           <div className="text-3xl text-center  mb-8">
             <h1>¡Contáctame!</h1>
           </div> 
-          <button className="text-xl mb-4 bg-color-terciario rounded-lg flex items-center w-1/2">
-            <FaWhatsapp className="mr-1 h-6 w-6 ml-8" />
+          <button className="text-xl mb-4 bg-color-terciario rounded-lg flex items-center w-full">
+            <FaWhatsapp className="mr-4 h-6 w-6 ml-28 " />
             <a href="https://w.app/ZareProfesional" target="_blank" rel="noopener noreferrer" className="mr-5">WhatsApp</a>
           </button>
-          <button className="text-xl mb-4 bg-color-terciario rounded-lg flex items-center w-1/2">
-            <MdOutlineMail className="mr-5 h-6 w-6 ml-8" />
+          <button className="text-xl mb-4 bg-color-terciario rounded-lg flex items-center w-full">
+            <MdOutlineMail className="mr-5 h-6 w-6 ml-32" />
             <a href="mailto:zarellaburbanov@gmail.com?subject=&amp;body=" target="_blank" rel="noopener noreferrer" className="mr-12">Email</a>
           </button>
-          <button className="text-xl mb-4 bg-color-terciario rounded-lg flex items-center w-1/2">
-            <FaGithub className="mr-4 h-6 w-6 ml-8" />
+          <button className="text-xl mb-4 bg-color-terciario rounded-lg flex items-center w-full">
+            <FaGithub className="mr-4 h-6 w-6 ml-32" />
             <a href="https://github.com/zareval" target="_blank" rel="noopener noreferrer" className="mr-9">GitHub</a>
           </button>
         </div>
