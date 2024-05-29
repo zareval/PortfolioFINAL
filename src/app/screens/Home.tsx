@@ -2,9 +2,9 @@ import React from "react";
 
 function Home() {
   return (
-    <main className='flex items-center justify-center h-screen'>
+    <main className='flex items-center justify-center min-h-screen p-4'>
       <div className='bg-color-primario pl-10 pr-10 p-20 rounded-md flex items-center'>
-        <div className="flex flex-col">
+        <div className="flex flex-col md:text-left mb-6 md:mb-0">
           <div className='text-4xl font-roboto mb-10'>
             <h1>HOLA, mi nombre es </h1>
             <h2>Zarella Burbano.</h2>

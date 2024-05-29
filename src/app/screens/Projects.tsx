@@ -8,8 +8,8 @@ import { FaGithub } from 'react-icons/fa';
 
 const Projects: React.FC = () => {
   return (
-    <main className='flex items-center justify-center h-screen'>
-      <div className='bg-color-primario p-8 rounded-lg shadow-lg flex flex-col items-center' style={{ width: '1000px', height: '500px' }}>
+    <main className='flex items-center justify-center min-h-screen p-4'>
+      <div className='bg-color-primario p-8 rounded-lg shadow-lg flex flex-col items-center w-full max-w-4xl'>
         <div className='text-3xl font-roboto mb-4'>
           <h1>Estos son mis proyectos:</h1>
         </div>

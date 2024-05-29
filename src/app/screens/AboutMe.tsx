@@ -17,8 +17,8 @@ const AboutMe = () => {
   };
 
   return (
-    <main className='flex items-center justify-center h-screen'>
-      <div className='bg-color-primario px-4 py-3 rounded-md grid grid-cols-2 gap-4' style={{ width: '1000px', height: '500px' }}>
+    <main className='flex items-center justify-center min-h-screen p-4'>
+      <div className='bg-color-primario px-4 py-3 rounded-md grid grid-cols-1 md:grid-cols-2 gap-4' style={{ maxWidth: '1000px' }}>
         <div className="flex flex-col justify-center">
           <div className='text-4xl font-roboto mb-6'>
             <h1 className="mb-3">SOBRE MI: </h1>
